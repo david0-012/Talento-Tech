@@ -1,0 +1,45 @@
+.navegacion a {
+    background-image: linear-gradient(90deg, #f5b6ea, #d400ff); /* Agrega un degradado de color de fondo */
+    font-family: 'Times New Roman', serif; /* Cambia la fuente */
+    font-size: 16px; /* Tamaño del texto */
+    color: #000000; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    padding: 5px 10px; /* Espaciado alrededor del texto */
+    display: block; /* Hace que el enlace llene el espacio del <li> */
+    border-radius: 5px; /* Agrega bordes redondeados */
+}    
+.navegacion a:hover {
+    color: #4800ff; /* Cambia el color del texto al pasar el mouse */
+}
+h1 {
+    font-family: 'Courier New', monospace; /* Cambia la fuente */
+    color: #000000; /* Color del texto */
+    background-color: #f5b6ea; /* Color de fondo */
+    padding: 10px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Agrega bordes redondeados */
+}
+h2 {
+    font-family: "fantasy";
+    color: #000000; /* Color del texto */
+    background-color: #ea9add; /* Color de fondo */
+    padding: 10px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Agrega bordes redondeados */
+}
+h3 {
+    font-family: 'monospace';
+    color: #000000; /* Color del texto */
+    background-color: #cf8bdc; /* Color de fondo */
+    padding: 10px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Agrega bordes redondeados */
+}
+.fondo{
+        background-image: url("arch/fm.jpg");
+}
+.timage1{
+    width:  500px;
+    height: 300px;
+}
+.timage2{
+    width:  200px;
+    height: 250px;
+}
