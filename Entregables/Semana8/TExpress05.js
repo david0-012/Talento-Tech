@@ -1,0 +1,1 @@
+// Crear una función que convierta grados Celsius a Fahrenheit. La ruta debe ser /celsius-a-fahrenheit y debe recibir el parámetro celsius. Utilizar una arrow function.

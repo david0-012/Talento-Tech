@@ -1,0 +1,1 @@
+// Implementa la autenticación con proveedores externos como Google, Facebook o GitHub utilizando estrategias de autenticación de terceros.

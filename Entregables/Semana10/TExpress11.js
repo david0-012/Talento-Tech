@@ -1,0 +1,1 @@
+// Crea middleware personalizados para manejar diferentes tipos de errores y enviar respuestas informativas al cliente.

@@ -1,0 +1,1 @@
+// Crear una tabla de multiplicar de un número ingresado por el usuario. La ruta debe ser /tabla/:numero y debe devolver la tabla de multiplicar del número en formato JSON.
