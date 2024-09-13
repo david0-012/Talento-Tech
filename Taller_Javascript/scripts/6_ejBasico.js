@@ -1,4 +1,3 @@
-// 6. Desarrollar un programa que determine si un año es bisiesto.
 function añoBis(){
     let año = parseInt(prompt("Ingrese un año:"));
     if (año % 4 == 0 && año %100 !=0 ){

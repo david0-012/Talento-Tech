@@ -1,4 +1,3 @@
-// 5. Crear un programa que simule una calculadora básica, permitiendo al usuario elegir la operación a realizar.
 function operacion() {
     let operacion = prompt("Introduce la operación a realizar: suma, resta, multiplicacion, division");
     let num1 = parseFloat(prompt("Introduce el primer número:"));

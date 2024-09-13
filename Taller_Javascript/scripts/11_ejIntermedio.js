@@ -1,4 +1,3 @@
-// 11. Implementar una función que determine si una cadena es un palíndromo.
 function palindromo(palabra){
     let palabraInvertida = "";
     for (let i = palabra.length - 1; i >= 0; i--){

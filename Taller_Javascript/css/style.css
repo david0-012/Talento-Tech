@@ -24,6 +24,10 @@
     background-color: #c2ffbb;
     padding: 20px; /*Para que no queden tan al borde*/
 }
+#Intermedio{
+    background-color: #b6e4f1;
+    padding: 20px; /*Para que no tanqueden tan al borde*/
+}
 .button{
     margin: 10px;
 }

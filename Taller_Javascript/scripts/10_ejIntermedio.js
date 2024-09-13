@@ -1,4 +1,3 @@
-// 10. Crear una función que convierta grados Celsius a Fahrenheit.
 function gradoscaf (gradosC){
     let gradosF = gradosC*9/5+32;
     return gradosF;

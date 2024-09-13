@@ -1,4 +1,3 @@
-// 14. Implementar el algoritmo de búsqueda binaria.
 let arreglo = [1,8,9,6,87,41,21,12,85,96,32,13];
 
 function ordenarArreglo(arr){
