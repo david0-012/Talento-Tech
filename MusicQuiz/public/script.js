@@ -43,13 +43,17 @@ document.addEventListener('DOMContentLoaded', () => {
             contenedorPreguntas.appendChild(preguntaElement);
         });
 
-        botonEnviar.addEventListener('click', () => {
+        botonEnviar.addEventListener('click', (event) => {
+            event.preventDefault(); // Evita el envío del formulario
+
+            // Obtén las respuestas del formulario
             const respuestas = [];
             preguntas.forEach((pregunta, index) => {
                 const seleccion = document.querySelector(`input[name="pregunta${index}"]:checked`);
                 respuestas.push(seleccion ? seleccion.value : null);
             });
 
+            // Calcula el puntaje
             const respuestasCorrectas = preguntas.map(p => p.opciones[0]); // Supongamos que la primera opción es la correcta
             let puntaje = 0;
             respuestas.forEach((respuesta, index) => {
@@ -58,8 +62,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
+            // Muestra el resultado
             resultadoMensaje.textContent = `Has respondido ${puntaje} de ${preguntas.length} preguntas correctamente.`;
             resultado.style.display = 'block';
+
+            // Deshabilita el formulario y los botones para evitar cambios
+            formulario.querySelectorAll('input, button').forEach(el => el.disabled = true);
+            botonEnviar.disabled = true;
         });
     } else {
         tituloQuiz.textContent = 'No se ha seleccionado un género';
