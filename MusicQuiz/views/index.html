@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Musical</title>
+    <link rel="stylesheet" href="/style.css"> <!-- Referencia a archivo CSS -->
+    <script defer src="/script.js"></script> <!-- Enlace al JavaScript externo -->
+</head>
+<body>
+    <h1>¡Bienvenido al Quiz Musical!</h1>
+    <div class="contenedor-generos">
+        <div class="tarjeta">
+            <img src="/images/rock.jpg" alt="Rock">
+            <h2>Rock</h2>
+            <button class="boton" onclick="mostrarConfirmacion('rock')">Realizar Quiz</button>
+        </div>
+        <div class="tarjeta">
+            <img src="/images/pop.jpg" alt="Pop">
+            <h2>Pop</h2>
+            <button class="boton" onclick="mostrarConfirmacion('pop')">Realizar Quiz</button>
+        </div>
+        <div class="tarjeta">
+            <img src="/images/jazz.jpg" alt="Jazz">
+            <h2>Jazz</h2>
+            <button class="boton" onclick="mostrarConfirmacion('jazz')">Realizar Quiz</button>
+        </div>
+    </div>
+    
+    <!-- Cuadro de Confirmación -->
+    <div id="confirmacion" style="display: none;">
+        <h2>¡Listo para el Quiz!</h2>
+        <p id="confirmacion-mensaje"></p>
+        <button class="boton" id="confirmar-boton">Iniciar Quiz</button>
+        <button class="boton cancel" onclick="cerrarConfirmacion()">Cancelar</button>
+    </div>
+</body>
+</html>
