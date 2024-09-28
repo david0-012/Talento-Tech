@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar esté encima de otros elementos */
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar h3{
+    color: #f2f2f2;
+    margin: 0;
+    float: left;
+    padding: 14px 20px;
+}
+#basico{
+    background-color: #c2ffbb;
+    padding: 20px; /*Para que no queden tan al borde*/
+}
+#Intermedio{
+    background-color: #b6e4f1;
+    padding: 20px; /*Para que no tanqueden tan al borde*/
+}
+#Avanzado{
+    background-color: #e5c2f7;
+    padding: 20px; /*Para que no tanqueden tan al borde*/
+}
+.button{
+    margin: 10px;
+    border-radius: 3px;
+}
+body {
+    margin-top: 40px;
+    width: 100%;
+}
