@@ -1,7 +1,11 @@
 .navbar {
     background-color: #333;
-    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar esté encima de otros elementos */
 }
+
 .navbar a {
     float: right;
     display: block;
@@ -28,6 +32,15 @@
     background-color: #b6e4f1;
     padding: 20px; /*Para que no tanqueden tan al borde*/
 }
+#Avanzado{
+    background-color: #e5c2f7;
+    padding: 20px; /*Para que no tanqueden tan al borde*/
+}
 .button{
     margin: 10px;
+    border-radius: 3px;
+}
+body {
+    margin-top: 40px;
+    width: 100%;
 }
